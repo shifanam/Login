@@ -1,0 +1,50 @@
+body {
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    margin-top: -1%;
+    margin-left: -1%;
+    width:100%;
+    margin-bottom: 0;
+    text-decoration: none;
+    
+}
+
+.nave-bar {
+    background-color: #000;
+    display: block;
+    height: 70px;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+}
+
+ul, li {
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding-left: 12px;
+    padding-top: 18px;
+    float: left;
+    top: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.logout {
+    float: right;;
+}
+
+.button:hover , .button:focus {
+    opacity: 0.8;
+    background: #00cacc;
+    letter-spacing: 7px;
+    cursor: pointer;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100;
+
+}

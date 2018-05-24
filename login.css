@@ -1,0 +1,113 @@
+body {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    margin-top: -1%;
+    margin-left: -1%;
+    width:100%;
+    margin-bottom: 0;
+
+    background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	background-size: cover;
+    
+}
+
+.nave-bar {
+    background-color:none;
+    display: block;
+    height: 70px;
+    width: 100%;
+    text-decoration: none;
+}
+
+ul, li {
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding-left: 12px;
+    padding-top: 18px;
+    float: left;
+    top: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    position: relative;
+    left: 2px;
+    color: #000;
+    font-size: 1em;
+}
+
+input, text {
+    font-size: 1em;
+    display: block;
+    width: 93%;
+    padding:1em 1em 1em 0;
+    background: none;
+    background-image: none;
+    border: none;
+    border-bottom: 1px solid #8e8e8e;
+    color: #000;
+    border-radius: 0;
+    -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+	-moz-transition: border-color .25s ease, box-shadow .25s ease; 
+    transition: border-color .25s ease, box-shadow .25s ease;
+}
+
+
+.log {
+     /* box-shadow: 4px 4px 8px 8px rgba(0,0,0,0.1);  */
+    /* width:30%; */
+    /* height: 80%; */
+    width:20%;
+    height:100%;
+    border: #000;
+    border:0px solid #000;
+    background-image: url("");
+    
+    border-radius: .1em;
+    padding-right: 2%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    float: right;
+    color: #000;
+    margin-right: 5%;
+
+    border-radius: 1em;
+    margin-right: 5%;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.2);  
+}
+
+.log:hover {
+    box-shadow: 0 8px 22px 0 rgba(0,0,0,0.2);
+}
+
+.btn-medium {
+    background-color:#2196f3;
+    font-size: 14px;
+    font-family: 'Roboto';
+    text-align :center;
+    color: white; 
+    width:90px;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 0.3em;
+    text-decoration: none;   
+}
+
+
+.btn-medium:hover, .btn-medium:focus {
+    background: #00cacc;
+    letter-spacing: 7px;
+}
+
+

@@ -1,0 +1,158 @@
+body {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    margin-top: -1%;
+    margin-left: -1%;
+    width:100%;
+    margin-bottom: 0;
+    text-decoration: none;   
+    background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	background-size: cover;
+    
+}
+
+.nave-bar {
+    background-color:none;
+    display: block;
+    height: 70px;
+    width: 100%;
+    text-decoration: none;
+}
+
+ul, li {
+    
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding-left: 12px;
+    padding-top: 18px;
+    float: left;
+    top: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.s {
+    width:1em;
+    height:2em;
+
+}
+.sign {
+    width: 25%;
+    height:100%;
+    border:0px solid #000;
+    background-image: url("");
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    float: right;
+    
+    border-radius: 1em;
+    margin-right: 5%;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.2);
+}
+.sign:hover {
+    box-shadow: 0 8px 22px 0 rgba(0,0,0,0.2);
+}
+
+input, text {
+    font-size: 1em;
+    display: block;
+    width: 73%;
+    padding:1em 1em 1em 1em;
+    font-family: sans-serif; 
+     
+}
+
+.btn-medium {
+    background-color:#2196f3;
+    font-size: 14px;
+    font-family: 'Roboto';
+    text-align :center;
+    color: white; 
+    width:90px;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 0.3em;
+    text-decoration: none; 
+    
+}
+
+.btn-medium:hover, .btn-medium:focus {
+    background: #2196f3;
+    letter-spacing: 7px;
+}
+
+.check {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    padding-bottom: 12px;
+    border:0px solid #000;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+.check:hover input ~ .checkmark {
+    background-color: #aaa;
+}
+
+.check input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.check .checkmark:after {
+    left:6px;
+    top: 3px;
+    width: 4px;
+    height: 8px;
+    border:solid #fff;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.show {
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
